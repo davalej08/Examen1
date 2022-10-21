@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package exam.part1;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eliec
+ */
+public class Entrada {
+    public static void entrada1(){
+        JOptionPane.showMessageDialog(null, "La categoría alta puede"
+                + " adquirir asientos al frente "
+                + "del escenario lo más cerca posible o posibilidad de ir detrás "
+                + "el escenario.");
+    }
+    public static void entrada2(){
+        JOptionPane.showMessageDialog(null, "La categoría media"
+                + " puede estar a una distancia media.");
+    }
+    public static void entrada3(){
+        JOptionPane.showMessageDialog(null, "La categoría baja estará"
+                + " a una distancia considerable"
+                + " del escenario.");
+    }
+    
+}
