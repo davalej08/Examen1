@@ -1,0 +1,31 @@
+public class NewMain {
+
+    /**
+     * @param args the command line arguments
+     /
+    public static void main(String[] args) {
+        int size = 5;
+        String texto = "";
+
+
+        for (int i = 1; i < size; i++) {
+            JOptionPane.showMessageDialog(null, texto); 
+            texto += "";
+        }
+        texto += " ";
+        for (int i = -1; i < size-2; i++) {
+            texto += " ";
+            for (int j = -1; j < size -2 ; j++) {
+                texto += " \n";
+            }
+            texto+="";
+            JOptionPane.showMessageDialog(null, texto);
+        }
+        for (int i = 1; i < size; i++) {
+            texto+="*";
+            JOptionPane.showMessageDialog(null, texto);
+        }
+        JOptionPane.showMessageDialog(null, texto);
+    }
+
+}
