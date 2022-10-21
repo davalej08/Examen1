@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exam.part1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author eliec
+ */
+public class main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Entrada entrada = new Entrada();
+        
+        int var = Integer.parseInt(JOptionPane.showInputDialog("Ingrese 1 "
+                + "si desea una entrada de categoria alta, 2 para categoria media "
+                + "y 3 para una categoria baja"));
+        
+        switch (var) {
+            case 1:
+                entrada.entrada1();
+                break;
+            case 2:
+                entrada.entrada2();
+                break;
+            case 3:
+                entrada.entrada3();
+                break;
+
+        }
+        
+    }
+    
+}
